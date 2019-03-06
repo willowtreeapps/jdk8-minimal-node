@@ -1,2 +1,3 @@
 # jdk8-minimal-node
-A lightweight docker image which contains JDK8 and NodeJS
+
+Available on Docker Hub as the willowtreeapps/jdk8-minimal-node image. This docker image can be used to run JDK8 based builds that also require NodeJS.
