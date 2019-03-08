@@ -2,7 +2,7 @@ FROM openjdk:8-jdk-slim
 
 # Install goodies
 RUN apt-get update && \
-    apt-get install -y gnupg curl git vim tar make g++
+    apt-get install -y gnupg curl jq bsdmainutils git vim tar make g++
     
 # Install node on top of jdk
 RUN set -x \
